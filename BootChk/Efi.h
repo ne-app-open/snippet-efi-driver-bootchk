@@ -12,8 +12,6 @@
 
 #include "Config.h"
 
-using namespace Ne::Kernel;
-
 /* we always use stdcall in EFI, the pascal way of calling functions. */
 
 #ifndef EPI_API
