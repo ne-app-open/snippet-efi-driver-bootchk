@@ -145,9 +145,9 @@
     <ClCompile Include="BootChk.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Config.h" />
-    <ClInclude Include="Efi.h" />
-    <ClInclude Include="Macros.h" />
+    <ClInclude Include="FirmwareKit/Config.h" />
+    <ClInclude Include="FirmwareKit/Efi.h" />
+    <ClInclude Include="FirmwareKit/Macros.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
