@@ -3,11 +3,11 @@
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
 // Official repository: https://github.com/ne-app-open/snippet-efi-driver-bootchk
 
-#ifndef NEKIT_MACROS_H
-#define NEKIT_MACROS_H
+#ifndef FIRMWAREKIT_MACROS_H
+#define FIRMWAREKIT_MACROS_H
 
 /***********************************************************************************/
-/// @file NeKit/Macros.h
+/// @file Macros.h
 /// @brief Core Types and Macros.
 /***********************************************************************************/
 
