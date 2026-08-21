@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Apache-2.0
 // Copyright 2024-2026, Amlal El Mahrouss & Ne.app (amlal@nekernel.org)
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
-// Official repository: https://github.com/ne-app/snippet-efi-driver-bootchk
+// Official repository: https://github.com/ne-app-open/snippet-efi-driver-bootchk
 
 #ifndef NEKIT_MACROS_H
 #define NEKIT_MACROS_H
