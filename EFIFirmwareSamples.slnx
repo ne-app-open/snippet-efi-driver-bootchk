@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="BootChk/BootChk.vcxproj" Id="dd9c2575-c386-43a8-bad2-b5d1ff7ccefe" />
+  <Project Path="Samples/Samples.vcxproj" Id="dd9c2575-c386-43a8-bad2-b5d1ff7ccefe" />
 </Solution>

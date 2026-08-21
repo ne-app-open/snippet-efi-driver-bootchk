@@ -22,7 +22,7 @@
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{dd9c2575-c386-43a8-bad2-b5d1ff7ccefe}</ProjectGuid>
-    <RootNamespace>BootChk</RootNamespace>
+    <RootNamespace>Samples</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,7 +142,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BootChk.cpp" />
+    <ClCompile Include="Samples.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Config.h" />
