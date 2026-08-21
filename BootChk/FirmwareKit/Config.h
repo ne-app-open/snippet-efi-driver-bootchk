@@ -6,7 +6,12 @@
 #ifndef FIRMWAREKIT_CONFIG_H
 #define FIRMWAREKIT_CONFIG_H
 
-#include "Macros.h"
+#include "FirmwareKit/Macros.h"
+
+/***********************************************************************************/
+/// @file FirmwareKit/Config.h
+/// @brief Core Types and Macros.
+/***********************************************************************************/
 
 using voidPtr = void *;
 using VoidPtr = void *;

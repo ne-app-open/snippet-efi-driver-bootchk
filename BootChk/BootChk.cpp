@@ -3,7 +3,7 @@
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
 // Official repository: https://github.com/ne-app-open/snippet-efi-driver-bootchk
 
-#include "Efi.h"
+#include "FirmwareKit/Efi.h"
 
 SInt32 BootChkModule(VoidPtr ImageHandle) {
 	/// Write your boot check driver here!

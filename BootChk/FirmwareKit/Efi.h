@@ -10,7 +10,12 @@
 @brief Implementation of the main EFI protocols.
 */
 
-#include "Config.h"
+#include "FirmwareKit/Config.h"
+
+/***********************************************************************************/
+/// @file FirmwareKit/Efi.h
+/// @brief EFI Types and API.
+/***********************************************************************************/
 
 /* we always use stdcall in EFI, the pascal way of calling functions. */
 
@@ -841,23 +846,23 @@ typedef struct _EfiProcessorInformation {
     EfiExtendedProcessorInformation ExtendedInformation;
 } EfiProcessorInformation;
 
-typedef EfiStatusType (EFI_API*EfiMpServicesGetNumberOfProcessors)(
+typedef EfiStatusType (EFI_API *EfiMpServicesGetNumberOfProcessors)(
     IN struct _EfiMpServicesProtocol* Self, OUT UInt32* NumberOfProcessors,
     OUT UInt32* NumberOfEnabledProcessors);
 
-typedef EfiStatusType (EFI_API*EfiMpServicesGetProcessorInfo)(
+typedef EfiStatusType (EFI_API *EfiMpServicesGetProcessorInfo)(
     IN struct _EfiMpServicesProtocol* Self, IN UInt32* ProcessorNumber,
     OUT struct _EfiProcessorInformation* NumberOfEnabledProcessors);
 
 typedef void (EFI_API *EFI_AP_PROCEDURE)(IN VoidPtr ProcedureArgument);
 
-typedef EfiStatusType (EFI_API*EfiMpServicesStartupAllAPS)(
+typedef EfiStatusType (EFI_API *EfiMpServicesStartupAllAPS)(
     IN struct _EfiMpServicesProtocol* Self, IN EFI_AP_PROCEDURE Procedure, IN Boolean SingleThread,
     IN VoidPtr WaitEvent OPTIONAL,  // EFI_EVENT first, but unused here.
     IN UInt32 TimeoutInMicroSeconds, IN Void* ProcedureArgument OPTIONAL,
     OUT UInt32** FailedCpuList OPTIONAL);
 
-typedef EfiStatusType (EFI_API*EfiMpServicesSwitchBSP)(IN struct _EfiMpServicesProtocol* Self,
+typedef EfiStatusType (EFI_API *EfiMpServicesSwitchBSP)(IN struct _EfiMpServicesProtocol* Self,
     IN UInt32  ProcessorNumber,
     IN Boolean EnableOldBSP);
 
