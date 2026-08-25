@@ -38,10 +38,10 @@ using Char8 = char8_t;
 using UChar = unsigned char;
 using UInt8 = UChar;
 
-using SSize = long;
-using SSizeT = long;
-using Size = __SIZE_TYPE__;
-using SizeT = __SIZE_TYPE__;
+using SSize = long long;
+using SSizeT = long long;
+using Size = unsigned long long;
+using SizeT = SizeT;
 using IntPtr = __int64;
 using UIntPtr = unsigned __int64;
 using IntFast = Int;
