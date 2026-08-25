@@ -20,13 +20,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Efi.h">
+    <ClInclude Include="FirmwareKit/Config.h">
       <Filter>FirmwareKit</Filter>
     </ClInclude>
-    <ClInclude Include="Config.h">
+    <ClInclude Include="FirmwareKit/Efi.h">
       <Filter>FirmwareKit</Filter>
     </ClInclude>
-    <ClInclude Include="Macros.h">
+    <ClInclude Include="FirmwareKit/Macros.h">
       <Filter>FirmwareKit</Filter>
     </ClInclude>
   </ItemGroup>

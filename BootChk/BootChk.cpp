@@ -6,7 +6,7 @@
 #include "FirmwareKit/Config.h"
 #include "FirmwareKit/Efi.h"
 
-Int32 BootChkModule(EfiHandlePtr ImageHandle, EfiSystemTable* ST) {
+extern "C" Int32 BootChkModule(EfiHandlePtr ImageHandle, EfiSystemTable* ST) {
 	/// Write your boot check driver here!
 	ST->ConOut->OutputString(ST->ConOut, L"Hello, World!\r\n");
 	return kEfiOk;
