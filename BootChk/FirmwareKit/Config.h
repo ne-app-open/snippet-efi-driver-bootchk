@@ -19,34 +19,34 @@ using nullPtr = decltype(nullptr);
 using NullPtr = decltype(nullptr);
 
 using Int = int;
-using Int32 = __INT32_TYPE__;
-using UShort = __UINT16_TYPE__;
-using UInt16 = __UINT16_TYPE__;
+using Int32 = int;
+using UShort = unsigned short;
+using UInt16 = UShort;
 using Short = short;
-using Int16 = __INT16_TYPE__;
-using UInt = __UINT32_TYPE__;
-using UInt32 = __UINT32_TYPE__;
-using Long = __INT64_TYPE__;
-using Int64 = __INT64_TYPE__;
-using ULong = __UINT64_TYPE__;
-using UInt64 = __UINT64_TYPE__;
+using Int16 = __int16;
+using UInt = unsigned;
+using UInt32 = UInt;
+using Long = __int64;
+using Int64 = __int64;
+using ULong = unsigned __int64;
+using UInt64 = ULong;
 using Boolean = bool;
 using Bool = bool;
 using Char = char;
-using Int8 = __INT8_TYPE__;
+using Int8 = char;
 using Char8 = char8_t;
-using UChar = __UINT8_TYPE__;
-using UInt8 = __UINT8_TYPE__;
+using UChar = unsigned char;
+using UInt8 = UChar;
 
 using SSize = long;
 using SSizeT = long;
 using Size = __SIZE_TYPE__;
 using SizeT = __SIZE_TYPE__;
-using IntPtr = __INTPTR_TYPE__;
-using UIntPtr = __UINTPTR_TYPE__;
-using IntFast = __INT_FAST32_TYPE__;
-using IntFast64 = __INT_FAST64_TYPE__;
-using PtrDiff = __PTRDIFF_TYPE__;
+using IntPtr = __int64;
+using UIntPtr = unsigned __int64;
+using IntFast = Int;
+using IntFast64 = IntPtr;
+using PtrDiff = __int64;
 
 using SInt16 = Int16;
 using SInt32 = Int32;
@@ -69,7 +69,7 @@ typedef UInt32 PhysicalAddressKind;
 typedef UIntPtr VirtualAddressKind;
 
 using Void = void;
-using Any = void *;
+using Any = void*;
 
 using Lba = UInt64;
 
