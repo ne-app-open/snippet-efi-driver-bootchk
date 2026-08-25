@@ -123,8 +123,9 @@
       <AdditionalDependencies />
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <FixedBaseAddress>0x1000000</FixedBaseAddress>
+      <FixedBaseAddress>false</FixedBaseAddress>
       <DataExecutionPrevention>false</DataExecutionPrevention>
+      <BaseAddress>0x10000000</BaseAddress>
     </Link>
     <Manifest>
       <EnableSegmentHeap>true</EnableSegmentHeap>
@@ -148,8 +149,9 @@
       <AdditionalDependencies />
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <FixedBaseAddress>0x1000000</FixedBaseAddress>
+      <FixedBaseAddress>false</FixedBaseAddress>
       <DataExecutionPrevention>false</DataExecutionPrevention>
+      <BaseAddress>0x10000000</BaseAddress>
     </Link>
     <Manifest>
       <EnableSegmentHeap>true</EnableSegmentHeap>
