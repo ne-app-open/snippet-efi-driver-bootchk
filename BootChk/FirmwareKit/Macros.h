@@ -114,7 +114,7 @@
 #define CONST const
 
 #define STRINGIFY(X) #X
-#define NE_UNUSED(X) ((Void) X)
+#define EFI_UNUSED(X) ((Void) X)
 
 #ifndef RGB
 #define RGB(R, G, B) ((UInt32) ((0xFF << 24) | ((R) << 16) | ((G) << 8) | (B)))

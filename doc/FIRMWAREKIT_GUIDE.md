@@ -179,7 +179,7 @@ TIB(n)  tib_cast(n)
 | `DEPRECATED` | `__attribute__((deprecated))` |
 | `CANT_REACH()` | `__builtin_unreachable()` |
 | `ARRAY_SIZE(a)` | compile-time element count |
-| `NE_UNUSED(x)` | suppress unused-variable warning |
+| `EFI_UNUSED(x)` | suppress unused-variable warning |
 | `DBG_TRAP()` | `asm volatile("int $3")` on x86-64, no-op elsewhere |
 | `RTL_ALLOCA(sz)` | `__builtin_alloca(sz)` |
 | `RGB(r,g,b)` | pack RGB into `UInt32` with `0xFF` alpha |
